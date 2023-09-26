@@ -1,3 +1,5 @@
+import { useLocalStorage } from './useLocalStorage'
+
 function App() {
     const [firstName, setFirstName] = useLocalStorage("FIRST_NAME", "")
 
